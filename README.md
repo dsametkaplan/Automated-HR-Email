@@ -63,7 +63,7 @@ Sends emails with your resume.
 
 ✅ The email content is generated with a clean HTML template in `build_html_body()`.
 
-✅ A `davut_samet_kaplan.pdf` file should exist in the same directory.
+✅ A `cv.pdf` file should exist in the same directory.
 
 ## 🛡 Disclaimer
 
