@@ -112,10 +112,10 @@ def main():
         print(f"🏢 Firma Adı: {firma}")
         print(f"📧 Gönderilecek Mail: {email}")
 
-        receiver_email = SENDER_EMAIL
+        receiver_email = email
         subject = "Software Developer Application"
         html_body = build_html_body(firma)
-        cv_path = "davut_samet_kaplan.pdf"
+        cv_path = "cv.pdf"
         
         send_email(receiver_email, subject, html_body, cv_path)
 
